@@ -1,0 +1,13 @@
+minio:
+  path:
+    #For Windows "\\" and for Linux "/". Surround with "" is necessary!
+    syntax: ${MINIO_PATH_SYNTAX}
+  destination:
+    path: ${MINIO_DESTINATION_PATH}
+  source:
+    path: ${MINIO_SOURCE_PATH}
+  bucket.name: ${MINIO_BUCKET}
+  access:
+    name: ${MINIO_USER}
+    secret: ${MINIO_SECRET}
+  url: ${MINIO_URL}
